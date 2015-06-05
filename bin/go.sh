@@ -3,7 +3,7 @@
 gpio_path=/usr/local/bin
 
 #right wheel
-$gpio_path/gpio write 0 $6
+$gpio_path/gpio write 6 $1
 $gpio_path/gpio write 1 $2
 
 #left wheel
