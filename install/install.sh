@@ -46,7 +46,7 @@ mv ~/lircd.conf /etc/lirc/lircd.conf
 echo install car
 cd /opt
 rm -rf smartcar-shell
-git clone git://github.com/yanchangyou/smartcar-shell
+git clone git://github.com/sunsetxiyang/smartcar-shell
 
 echo start smart car
 cd smartcar-shell/bin
