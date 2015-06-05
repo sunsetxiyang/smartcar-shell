@@ -22,8 +22,8 @@ gpio -v
 echo install lirc
 apt-get install lirc -y
 
-echo config gpio use pin 25
-modprobe lirc_rpi gpio_in_pin=25 gpio_out_pin=2
+echo config gpio use pin 18
+modprobe lirc_rpi gpio_in_pin=18 gpio_out_pin=2
 
 #echo test
 #echo mode2 -d /dev/lirc0
