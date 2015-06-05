@@ -55,7 +55,7 @@ chmod +x *.sh
 echo start car on boot
 sed -i '$d' /etc/rc.local
 echo start car on boot >> /etc/rc.local
-echo modprobe lirc_rpi gpio_in_pin=25 gpio_out_pin=2 >> /etc/rc.local
+echo modprobe lirc_rpi gpio_in_pin=18 gpio_out_pin=2 >> /etc/rc.local
 echo /etc/init.d/lirc start >> /etc/rc.local
 echo cd /opt/smartcar-shell/bin >> /etc/rc.local
 echo ./start.sh \& >> /etc/rc.local
