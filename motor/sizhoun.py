@@ -12,10 +12,10 @@ p = GPIO.PWM(12, 50)  # 通道为 12 频率为 50Hz
 p.start(0)
 try:
     while 1:
-        for dc in range(5, 10, 5):
+        for dc in range(5, 10, 1):
             p.ChangeDutyCycle(dc)
             time.sleep(0.1)
-        for dc in range(9, 4, -5):
+        for dc in range(9, 4, -1):
             p.ChangeDutyCycle(dc)
             time.sleep(0.1)
 except KeyboardInterrupt:
