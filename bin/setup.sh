@@ -6,7 +6,7 @@ gpio_path=/usr/local/bin
 
 #right wheel
 $gpio_path/gpio mode 6 out
-$gpio_path/gpio mode 1 out
+$gpio_path/gpio mode 0 out
 
 #left wheel
 $gpio_path/gpio mode 4 out
